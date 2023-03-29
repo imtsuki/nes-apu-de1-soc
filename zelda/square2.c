@@ -1,4 +1,4 @@
-#include "../audio.h"
+#include "../notes.h"
 
 const note_t SQUARE2_NOTES[] = {
     {"A#3", 0, 32, 2, 4},     {"", 1, -1, -1, 5},

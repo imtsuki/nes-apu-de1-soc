@@ -3,6 +3,14 @@
 
 #include "audio.h"
 
+typedef struct note {
+    char name[4];
+    int time;
+    int duration;
+    int duty;
+    int volume;
+} note_t;
+
 extern const note_t SQUARE1_NOTES[];
 extern const note_t SQUARE2_NOTES[];
 extern const note_t TRIANGLE_NOTES[];

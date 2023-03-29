@@ -1,4 +1,4 @@
-#include "../audio.h"
+#include "../notes.h"
 
 const note_t TRIANGLE_NOTES[] = {
     {"A#2", 0, 6, 0, -1},    {"A#2", 24, 6, 0, -1},   {"A#2", 32, 6, 0, -1},

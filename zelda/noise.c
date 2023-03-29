@@ -1,4 +1,4 @@
-#include "../audio.h"
+#include "../notes.h"
 
 const note_t NOISE_NOTES[] = {
     {"G3", 0, 5, 0, 12},    {"G3", 72, 1, 0, -1},   {"G3", 80, 1, 0, -1},

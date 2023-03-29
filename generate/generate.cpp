@@ -125,7 +125,7 @@ int main() {
         auto &notes = result[i];
         auto &ARRAY_NAME = ARRAY_NAMES[i];
         auto &ARRAY_LENGTH_NAME = ARRAY_LENGTH_NAMES[i];
-        output << "#include \"../audio.h\"\n\nconst note_t " << ARRAY_NAME
+        output << "#include \"../notes.h\"\n\nconst note_t " << ARRAY_NAME
                << "[]={\n";
 
         for (auto note : notes) {

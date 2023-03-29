@@ -36,14 +36,6 @@ static inline fifospace_t read_fifospace(audio_t *audio) {
     return space;
 }
 
-typedef struct note {
-    char name[4];
-    int time;
-    int duration;
-    int duty;
-    int volume;
-} note_t;
-
 typedef struct channel {
     int volume;
     int frequency;
